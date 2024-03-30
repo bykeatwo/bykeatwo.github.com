@@ -1,4 +1,82 @@
-hello
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Privacy Policy - <span id='app_name'><span></title>
+</head>
+
+<body>
+  <h1>Privacy Policy</h1>
+  <h2>Effective Date: <span id='effective_date'><span></h2>
+
+  <p><span id='app_name'><span> is committed to respecting and protecting the privacy of its users. This Privacy Policy
+        explains how we collect, use, and disclose information when you use our mobile application <span
+          id='app_name'><span>. By using our app, you consent to the practices described in this policy.</p>
+
+  <h3>1. Information Collection and Use:</h3>
+
+  <h4>1.1 Non-Personal Information:</h4>
+  <p><span id='app_name'><span> does not collect any personally identifiable information (PII) such as your name,
+        address, or contact details. We may collect non-personal information, such as device information (device type,
+        operating system version, etc.) and anonymous usage statistics. This information is used solely to improve the
+        functionality and performance of our app.</p>
+
+  <h4>1.2 Third-Party Services:</h4>
+  <p><span id='app_name'><span> may integrate with third-party services, such as social media platforms or analytics
+        providers. These third parties may collect information about your use of the app in accordance with their
+        respective privacy policies. We encourage you to review the privacy policies of these third-party services.</p>
+
+  <h3>2. Data Sharing and Disclosure:</h3>
+
+  <h4>2.1 Non-Personal Information:</h4>
+  <p>We may share non-personal information with third parties for analytical or marketing purposes. This information is
+    aggregated and does not identify individual users.</p>
+
+  <h4>2.2 Legal Requirements:</h4>
+  <p>We may disclose your information if required to do so by law or in response to a valid legal request, such as a
+    court order or government investigation.</p>
+
+  <h3>3. Data Security:</h3>
+
+  <p>We take reasonable measures to protect the information collected through our app against unauthorized access, loss,
+    alteration, or disclosure. However, please note that no method of transmission over the internet or electronic
+    storage is 100% secure. Therefore, we cannot guarantee absolute security.</p>
+
+  <h3>4. Children's Privacy:</h3>
+
+  <p><span id='app_name'><span> does not knowingly collect personal information from children under the age of 13. If
+        you are a parent or guardian and believe that your child has provided personal information, please contact us,
+        and we will promptly delete such information from our systems.</p>
+
+  <h3>5. Changes to this Privacy Policy:</h3>
+
+  <p>We reserve the right to update or modify this Privacy Policy at any time. Any changes will be effective immediately
+    upon posting the revised policy within the app. We encourage you to review this Privacy Policy periodically for any
+    updates.</p>
+
+  <h3>6. Contact Us:</h3>
+
+  <p>If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at
+    <span id='email'><span>.</p>
+
+  <p>By using <span id='app_name'><span>, you acknowledge that you have read and understood this Privacy Policy and
+        agree to its terms and conditions.</p>
+</body>
+
+</html>
 <script>
-  console.log('hello');
+  var urlParams = new URLSearchParams(window.location.search);
+  var appName = urlParams.get('appName');
+  var effectiveDate = urlParams.get('effectiveDate');
+  var email = urlParams.get('email');
+  if (appName != null) {
+    document.getElementById('app_name').innerHTML = document.getElementById('app_name').innerHTML.replace(/hello/g, appName);
+  }
+  if (effectiveDate != null) {
+    document.getElementById('effective_date').innerHTML = document.getElementById('effective_date').innerHTML.replace(/hello/g, effectiveDate);
+  }
+  if (email != null) {
+    document.getElementById('email').innerHTML = document.getElementById('email').innerHTML.replace(/hello/g, email);
+  }
+
 </script>
