@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+
 <html>
 
 <head>
-  <title>Privacy Policy - Hari Raya Cards Stickers</title>
+  <title>Privacy Policy - Hari Raya Cards Stickers App</title>
 </head>
 
 <body>
   <h1>Privacy Policy</h1>
-  <h2>Effective Date: <span id='effective_date'><span></h2>
+  <h2>Effective Date: 30TH MARCH 2024</h2>
 
   <p>Hari Raya Cards Stickers is committed to respecting and protecting the privacy of its users. This Privacy Policy
         explains how we collect, use, and disclose information when you use our mobile application Hari Raya Cards Stickers. By using our app, you consent to the practices described in this policy.</p>
