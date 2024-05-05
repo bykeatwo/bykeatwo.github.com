@@ -2,6 +2,7 @@ Privacy Policy
 Effective Date: 30TH MARCH 2024
 
 Mother's Day Cards Stickers is committed to respecting and protecting the privacy of its users. This Privacy Policy explains how we collect, use, and disclose information when you use our mobile application Mother's Day Cards Stickers. By using our app, you consent to the practices described in this policy.
+
 1. Information Collection and Use:
 1.1 Non-Personal Information:
 
@@ -9,6 +10,7 @@ Mother's Day Cards Stickers does not collect any personally identifiable informa
 1.2 Third-Party Services:
 
 Mother's Day Cards Stickers may integrate with third-party services, such as social media platforms or analytics providers. These third parties may collect information about your use of the app in accordance with their respective privacy policies. We encourage you to review the privacy policies of these third-party services.
+
 2. Data Sharing and Disclosure:
 2.1 Non-Personal Information:
 
