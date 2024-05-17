@@ -7,7 +7,7 @@
 
 <body>
   <strong>Privacy Policy</strong>
-  <p>This privacy policy applies to the Graduation Ceremony Cards Stickers app (hereby referred to as "Application") for
+  <p>This privacy policy applies to the Graduation Cards Stickers app (hereby referred to as "Application") for
     mobile devices that was created by HK Baby (hereby referred to as "Service Provider") as an Ad Supported service.
     This service is intended for use "AS IS".</p><br><strong>Information Collection and Use</strong>
   <p>The Application collects information when you download and use it. This information may include information such as
